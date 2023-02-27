@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Events</title>
+</head>
+<body>
+	
+		<button id="myBtn">Click me!</button>
+		
+		<h2 id="head2">This is a H2 heading</h2>
+		
+		<h3 id="head3">This is a H3 heading</h3>
+		
+		<h4 id="head4">This is a H4 heading</h4>
+
+
+</body>
+</html>
+
+<script>
+
+	var btn = document.getElementById("myBtn");
+	btn.addEventListener("click", myFunction);
+	
+	var h2 = document.getElementById("head2");
+	h2.addEventListener("click", myFunction);
+	
+	var h3 = document.getElementById("head3");
+	h3.addEventListener("mouseover", myFunction);
+	
+	var h4 = document.getElementById("head4");
+	h4.addEventListener("mouseout", myFunction);
+	
+	function myFunction(){
+		alert("This is an alert");
+	}
+
+</script>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Events</title>
+</head>
+<body>
+	
+		Username:<input id="inbox">
+		
+		<h1 id="head1">Please Input</h1>
+		
+		
+</body>
+</html>
+
+<script>
+	
+	var user = document.getElementById("inbox");
+	user.addEventListener("input", myFunction);
+	
+	
+	function myFunction(){
+		user = document.getElementById("inbox").value;
+
+		if(user.length >= 6)
+		{
+			document.getElementById("head1").innerHTML = "Valid username";
+		}
+		else
+		{
+			document.getElementById("head1").innerHTML = "Input must be a minimum of 6 characters";
+		}
+	}
+
+</script>

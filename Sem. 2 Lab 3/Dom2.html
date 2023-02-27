@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>The DOM</title>
+</head>
+<body>
+	<h1 id="heading1">Change heading 1</h1>
+	
+	<button onclick="popUp1()">Change heading 1</button>
+	
+	<h1 id="heading2">Change heading 2</h1>
+	
+	<button onclick="popUp2()">Change heading 2</button>
+	
+	<h1 id="heading3">Change heading 3</h1>
+	
+	<button onclick="popUp3()">Change heading 3</button>
+	
+	
+	<script>
+	function popUp1(){
+		document.getElementById("heading1").innerHTML = "Heading 1 changed!";
+	}
+	
+	function popUp2(){
+		document.getElementById("heading2").innerHTML = "Heading 2 changed!";
+	}
+	
+	function popUp3(){
+		document.getElementById("heading3").innerHTML = "Heading 3 changed!";
+	}
+	
+	
+	</script>
+</body>
+</html>

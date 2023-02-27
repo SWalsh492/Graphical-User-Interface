@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>My Web Page</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+
+	let num1 = Math.floor(Math.random() * 100) + 1;
+	let counter = 6
+	let userNum = 0
+	if(num1 >= 1)
+	{	while(counter > 0 || userNum != num1)
+		{
+			let userNum = prompt("Enter your guess (1 - 100)");
+			
+			if(userNum == num1)
+			{
+				alert("Good Guess");
+				break;
+			}
+			else if(userNum > num1)
+			{
+				alert("Too High");
+			}
+			else if(userNum < num1)
+			{
+				alert("Too Low");
+			}
+			else
+			{
+				alert("Sorry, wrong number");
+			}
+			counter--;
+		}
+	}
+	else
+	{
+		alert("The code did not do as expected");
+	}
+</script>

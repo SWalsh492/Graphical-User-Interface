@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>page 2</title>
+</head>
+<body>
+	<h1>This is Page 2 </h1>
+	
+	<button onclick="get()">Retrieve from Session Storage</button>
+	
+	<h2 id="name"></h2>
+
+	<script>
+		function get(){
+			document.getElementById("name").textContent = localStorage.name;
+		}
+		
+		//localStorage.clear();
+	</script>
+</body>
+</html>	

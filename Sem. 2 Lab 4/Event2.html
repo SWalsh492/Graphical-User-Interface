@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Events</title>
+</head>
+<body>
+
+	<h1 id="myHeading"></h1>
+	
+	<input id="inbox" oninput="myFunction()">
+
+</body>
+</html>
+
+<script>
+	
+	function myFunction(){
+		let textInBox;
+		textInBox = document.getElementById("inbox").value;
+		document.getElementById("myHeading").innerHTML = textInBox;
+	}
+
+</script>

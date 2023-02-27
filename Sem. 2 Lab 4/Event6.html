@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Events</title>
+</head>
+<body>
+	
+		<input id="inbox">
+		
+		
+</body>
+</html>
+
+<script>
+	
+	var x = document.getElementById("inbox");
+	x.addEventListener("blur", myFunction);
+	
+	
+	function myFunction(){
+		x = document.getElementById("inbox").value;
+		document.write(x.replaceAll('&', 'and'));
+	}
+
+</script>
+

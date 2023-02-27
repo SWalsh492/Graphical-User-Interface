@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>The DOM</title>
+</head>
+<body>
+	<h1 id="heading1">Hello World</h1>
+	
+	<button onclick="popUp1()">Change Text</button>
+	
+	<script>
+	function popUp1(){
+		document.getElementById("heading1").innerHTML = "Hello " + prompt("Please enter your name: ");
+	}
+	
+	</script>
+</body>
+</html>

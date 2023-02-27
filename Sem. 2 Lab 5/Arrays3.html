@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Arrays</title>
+</head>
+<body>
+	<h1>Shopping List</h1>
+	<ul id="items"></ul>
+	<script>
+		let list = ["Bread", "Milk", "Tea", "Biscuits", "Crisps"];
+		
+		let output;
+		for(let i = 0; i < list.length; i++){
+			output += "<li>"+list[i]+"</li>";
+			document.getElementById("items").innerHTML = output;
+		}
+	</script>
+</body>
+</html>	

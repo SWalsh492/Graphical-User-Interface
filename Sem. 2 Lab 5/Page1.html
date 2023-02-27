@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Page 1</title>
+</head>
+<body>
+	<h1>This is Page 1</h1>
+	Enter Name: <input id="name"> <button onclick="save()">Save</button>
+	<br>
+	<br>
+	<a href="page2.html" target="_self">Go to page 2</a>
+	<script>
+		function save(){
+			localStorage.name = document.getElementById("name").value
+		}
+		
+	</script>
+</body>
+</html>	

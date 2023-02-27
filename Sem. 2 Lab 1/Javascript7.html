@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>My Web Page</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+
+	let num1 = Math.floor(Math.random() * 10) + 1;
+	let counter = 3
+	if(num1 >= 1)
+	{	while(counter >= 0)
+		{
+			let userNum = prompt("Enter your guess (1 - 10)");
+			if(userNum == num1)
+			{
+				alert("Good Guess");
+			}
+			else
+			{
+				alert("Sorry, wrong number");
+			}
+			counter--;
+		}
+	}
+	else
+	{
+		alert("The code did not do as expected");
+	}
+</script>

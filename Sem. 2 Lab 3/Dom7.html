@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Dom7</title>
+	</head>
+	<body>
+		<h1>Changing styles with the DOM</h1>
+		<h2 id="myText">Change this Text</h2>
+		<button onclick="changeColour()">Change Colour of H2</button>
+		<button onclick="changeFontSize()">Change Font Size of H2</button>
+		<button onclick="changeFontStyle()">Change Font Style of h2</button>
+		<script>
+			function changeColour(){
+				document.getElementById("myText").style.color = "red";
+			}
+			
+			function changeFontSize(){
+				document.getElementById("myText").style.fontSize = "xx-large";
+			}
+			
+			function changeFontStyle(){
+				document.getElementById("myText").style.fontStyle = "italic";
+			}
+		
+		</script>
+	</body>
+</html>

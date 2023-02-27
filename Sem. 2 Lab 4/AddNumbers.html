@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Events</title>
+</head>
+<body>
+	
+	<input id="inbox1"> + <input id="inbox2" oninput="myFunction()">
+	
+	<h1 id="answer">Answer will be here</h1>
+
+</body>
+</html>
+
+<script>
+
+	var calc = document.getElementById("inbox2");
+	calc.addEventListener("input", myFunction);
+	
+	function myFunction(){
+		let input1;
+		input1 = document.getElementById("inbox1").value;
+		
+		let input2;
+		input2 = document.getElementById("inbox2").value;
+		
+		document.getElementById("answer").innerHTML = "Answer is " + (parseInt(input1)+parseInt(input2));
+		
+	}
+
+</script>

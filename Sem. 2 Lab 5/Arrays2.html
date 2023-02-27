@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Arrays</title>
+</head>
+<body>
+
+	<input id="inbox">
+	<button onclick="update()">Add Fruit</button>
+	<button onclick="show()">Show Array</button>
+	<h1 id="myHeading"></h1>
+	<br><br>
+	<input id="inbox2">
+	<button onclick="showIndex()">Show Array Index</button>
+	<h1 id="myHeading2"></h1>
+	<br><br>
+	<input id="search">
+	<button onclick="searchIndex()">Search</button>
+	<br><br>
+	<input id="delete">
+	<button onclick="deleteIndex()">Delete Index</button>
+	<h1 id="myHeading3"></h1>
+	
+	
+
+	<script>
+		let fruit = ["Banana", "Apple", "Orange", "Pear"];
+		
+		function update(){
+			let textinbox = document.getElementById("inbox").value;
+			fruit.push(textinbox);
+		}
+		
+		function show(){
+			document.getElementById("myHeading").innerHTML = fruit;
+		}
+		
+		function showIndex(){
+			let input = document.getElementById("inbox2").value;
+			if(input > fruit.length)
+			{
+				alert("Value is too high - there arn't that many elements in this array!");
+			}
+			else
+			{
+				document.getElementById("myHeading2").innerHTML = fruit[input];
+			}
+		}
+		
+		function searchIndex(){
+			let input = document.getElementById("search").value;
+			alert(fruit.indexOf(input));
+		}
+		
+		function deleteIndex(){
+			let input = document.getElementById("delete").value;
+			fruit.splice(input,1);
+			document.getElementById("myHeading3").innerHTML = fruit;
+		}
+		
+		
+		
+		
+	</script>
+</body>
+</html>	
