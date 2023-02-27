@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Course Timetable</title>
+		<style>
+			a {color: white;}
+			.textAlign {text-align: center;}
+			.lectures {background-color: green; color: white;}
+			.labs {background-color: blue; color: white;}
+			.tutorials {background-color: red; color: white;}
+			.timesdays {background-color: yellow;}
+			#whiteBG {background-color: white;}
+			#blackBG {background-color: black; color: white;}
+		</style>
+	</head>
+	<body class="textAlign">		
+		<table border="1" cellpadding="10">
+		<caption><b>Sample College Timetable</b></caption>
+			<tr class="timesdays">
+				<th id="blackBG">Day of the Week</th>
+				<th>9-10</th>
+				<th>10-11</th>
+				<th>11-12</th>
+				<th>12-13</th>
+				<th>13-14</th>
+				<th>14-15</th>
+				<th>15-16</th>
+				<th>16-17</th>
+			</tr>
+			<tr>
+				<th class="timesdays">Monday</th>
+				<td class="lectures" title="1 Hour"><a href="">Java Lecture</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td class="labs" title="3 Hours" colspan="3"><a href="">Java Lab</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th class="timesdays">Tuesday</th>
+				<td class="lectures" title="1 Hour"><a href="">Maths</a></td>
+				<td></td>
+				<td class="lectures" title="1 Hour"><a href="">E-Bus</a></td>
+				<td></td>
+				<td></td>
+				<td class="labs" title="3 Hours" colspan="3"><a href="">GUI Lab</a></td>
+			</tr>
+			<tr>
+				<th class="timesdays">Wednesday</th>
+				<td class="lectures" title="2 Hours" colspan="2"><a href="">Maths</a></td>
+				<td class="lectures" title="1 Hour"><a href="">Java Lecture</a></td>
+				<td></td>
+				<td></td>
+				<td class="tutorials" title="1 Hour"><a href="">Java Tutorial</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th class="timesdays">Thursday</th>
+				<td class="tutorials" title="1 Hour"><a href="">LIS</a></td>
+				<td></td>
+				<td class="lectures" title="2 Hours" colspan="2"><a href="">Java Lecture</a></td>
+				<td class="lectures" title="1 Hour"><a href="">E-Bus</a></td>
+				<td></td>
+				<td class="lectures" title="1 Hour"><a href="">Java Lecture</a></td>
+				<td class="lectures" title="1 Hour"><a href="">LIS Lecture</a></td>
+			</tr>
+			<tr>
+				<th class="timesdays">Friday</th>
+				<td class="lectures" title="1 Hour"><a href="">E-Bus</a></td>
+				<td class="lectures" title="1 Hour"><a href="">GUI Lecture</a></td>
+				<td></td>
+				<td class="tutorial" title="1 Hour"><a href="">Maths Tutorial</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+	
+</html>

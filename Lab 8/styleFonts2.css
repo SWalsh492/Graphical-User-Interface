@@ -1,0 +1,17 @@
+
+.red { font-family: 'Sigmar One',cursive; font-size: 300%; color: red; text-shadow: 2px 2px 1px black; line-height: 60%;}
+.yellow { font-family: 'Sigmar One',cursive; font-size: 300%; color: yellow; text-shadow: 2px 2px 1px black; line-height: 60%;}
+.green { font-family: 'Sigmar One',cursive; font-size: 300%; color: green; text-shadow: 2px 2px 1px black; line-height: 60%;}
+.blue { font-family: 'Sigmar One',cursive; font-size: 300%; color: blue; text-shadow: 2px 2px 1px black; line-height: 60%;}
+.pink { font-family: 'Sigmar One',cursive; font-size: 300%; color: pink; text-shadow: 2px 2px 1px black; line-height: 60%;}
+.maroon { font-family: 'Sigmar One',cursive; font-size: 300%; color: maroon; text-shadow: 2px 2px 1px black; line-height: 60%;}
+.lightgreen { font-family: 'Sigmar One',cursive; font-size: 300%; color: light green; text-shadow: 2px 2px 1px black; line-height: 60%;}
+.cyan { font-family: 'Sigmar One',cursive; font-size: 300%; color: cyan; text-shadow: 2px 2px 1px black; line-height: 60%;}
+
+#caveat1 { font-family: 'Caveat',cursive; font-size: 120%; line-height: 60%;}
+#caveat2 {font-family: 'Caveat',cursive,bold; font-size: 400%; line-height: 60%;}
+
+#main {
+margin: auto;
+width: 600px;
+}

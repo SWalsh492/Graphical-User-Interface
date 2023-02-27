@@ -1,0 +1,32 @@
+<!--CSS GRID EXERCISE 5-->
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		div {border: 1px solid black;}
+		.container {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto 100px 250px auto; grid-gap: 5px;}
+		.bluePink {background-color: orange; border-width: 5px; border-color: black;}
+		
+		#box6 {background-color: lightblue; grid-row: span 4;}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="bluePink">Box 1</div>
+		<div class="bluePink">Box 2</div>
+		<div class="bluePink">Box 3</div>
+		<div class="bluePink">Box 4</div>
+		<div class="bluePink">Box 5</div>
+		<div class="bluePink" id="box6">Box 6</div>
+		<div class="bluePink">Box 7</div>
+		<div class="bluePink">Box 8</div>
+		<div class="bluePink">Box 9</div>
+		<div class="bluePink">Box 10</div>
+		<div class="bluePink">Box 11</div>
+		<div class="bluePink">Box 12</div>
+	</div>
+</body>
+</html>

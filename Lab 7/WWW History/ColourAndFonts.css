@@ -1,0 +1,12 @@
+@font-face { font-family: 'Garamond'; 
+src: url('fonts.google.com');
+font-family: 'Arizonia'; 
+src: url('fonts.google.com');
+font-family: 'Maconda Swash Caps'; 
+src: url('fonts.google.com');
+}
+
+h1 { font-family: 'Garamond';}
+h2 { font-family: 'Arizonia';}
+h3 { font-family: 'Maconda Swash Caps;
+	p {font-size: 500%;}
