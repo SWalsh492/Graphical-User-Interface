@@ -1,0 +1,5 @@
+<h1>The Polar Bear</h1>
+<p>The Polar bear is native to regions in the Arctic Circle. There are about 25,000 polar bears located throughout these regions.</p>
+
+<h1>The Grizzly Bear</h1>
+<p>The Grizzly bear is a North American bear. There are about 55,000 wild grizzly bears located throughout North America.</p>
